@@ -1,0 +1,11 @@
+{
+  "changeLanguage": "Selecione seu idioma",
+  "home": {
+    "cta": "Pague sua fatura com o PIX",
+    "legend": "Tenha mais praticidade e segurança para pagar suas contas! Pague sua fatura com o PIX e ganhe 10% de desconto.",
+    "form": {
+      "document": "Insira seu CPF",
+      "button": "Buscar faturas"
+    }
+  }
+}

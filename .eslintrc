@@ -1,0 +1,32 @@
+{
+    "extends": ["@antfu"],
+
+    "plugins": ["vue"],
+
+    "rules": {
+        "@typescript-eslint/consistent-type-imports": "off",
+        "@typescript-eslint/indent": ["warn", 4],
+
+        "no-console": "off",
+        "quotes": ["error", "single"],
+        "comma-dangle": ["error", "always-multiline"],
+        "semi": ["error", "never"],
+        "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 1 }],
+
+        "vue/no-deprecated-slot-attribute": "off",
+        "vue/no-reserved-component-names": "off",
+        "vue/max-attributes-per-line": ["error", { "singleline":  { "max":  1 }, "multiline":  { "max":  1 }}],
+        "vue/html-indent": ["error", 4],
+        "vue/script-indent": ["error", 4, { "baseIndent": 1, "switchCase": 1 }]
+    },
+
+    "overrides": [
+        {
+            "files": ["*.vue"],
+            "rules": {
+                "indent": "off",
+                "@typescript-eslint/indent": "off"
+            }
+        }
+    ]
+}
