@@ -1,4 +1,4 @@
-import { useHead } from "#head"
+import { useHead } from '#head'
 
 export const standartizarionHeader = (title: string, description: string): void => {
     const siteName = import.meta.env.VITE_APP_NAME

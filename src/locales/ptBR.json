@@ -1,11 +1,26 @@
 {
-  "changeLanguage": "Selecione seu idioma",
-  "home": {
-    "cta": "Pague sua fatura com o PIX",
-    "legend": "Tenha mais praticidade e segurança para pagar suas contas! Pague sua fatura com o PIX e ganhe 10% de desconto.",
-    "form": {
-      "document": "Insira seu CPF",
-      "button": "Buscar faturas"
+    "auth": {
+        "login": {
+            "title": "Acesse sua conta",
+            "pre-register": "Ou",
+            "register": "cadastre-se agora mesmo",
+            "label-email": "E-mail",
+            "label-password": "Senha",
+            "forgot-password": "Esqueceu sua senha?",
+            "remember-me": "Lembrar-me",
+            "button": "Entrar"
+        },
+        "register": {
+            "title": "Cadastre-se",
+            "pre-login": "Ou",
+            "login": "volte e faça login!",
+            "label-name": "Nome",
+            "label-email": "E-mail",
+            "label-password": "Senha",
+            "label-password-confirmation": "Confirme sua senha",
+            "label-terms": "Li e aceito os",
+            "terms": "Termos de Uso",
+            "button": "Cadastrar!"
+        }
     }
-  }
 }
