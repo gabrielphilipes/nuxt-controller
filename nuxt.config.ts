@@ -8,14 +8,11 @@ export default defineNuxtConfig({
         '@nuxtjs/i18n', // https://i18n.nuxtjs.org/
     ],
 
-    css: [
-        '@/assets/css/main.css',
-    ],
+    css: ['@/assets/css/main.css'],
 
-    build: {
-        transpile: [
-            '@headlessui/vue',
-        ],
+    build: { transpile: ['@headlessui/vue'] },
+
+    routeRules: {
     },
 
     // localization - i18n config
